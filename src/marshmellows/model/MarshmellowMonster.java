@@ -24,7 +24,32 @@ public class MarshmellowMonster
 		this.monsterHair=monsterHair;
 		this.monsterBellyButton=monsterBellyButton;
 	}
-
+	//Getters & Settters
+	public String getMonsterName()
+	{
+		return monsterName;
+	}
+	
+	public int getMonsterEyes()
+	{
+		return monsterEyes;
+	}
+	
+	public int get MonsterNoses()
+	{
+		return int MonsterNoses;
+	}
+	
+	
+	
+	
+	
+	
+	public void setMonsterName(String monsterName)
+	{
+		this.monsterName=monsterName;
+	}
+	
 	public String toString()
 	{
 		String monster = "This monster has" +monsterEyes + "eyes, and its' name is" + monsterName + "it has" + monsterNoses + " pink noses" + " it also has" + monsterLegs + "blue legs" + " and "+ monsterHair + "strands of hair on their hair" + " and no belly button" ;

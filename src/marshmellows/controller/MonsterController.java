@@ -20,6 +20,18 @@ public class MonsterController
 	
 	public void start()
 	{
+		myOutput.displaMonsterInfo(codyMonster.toString());
+		askQuestions();
 		myOutput.displayMonsterInfo(joshMonster.toString());
+	
 	}
 }
+
+
+	private void askQuestions()
+	{
+	}
+	
+	
+	
+	}
