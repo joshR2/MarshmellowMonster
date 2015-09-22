@@ -35,9 +35,9 @@ public class MarshmellowMonster
 		return monsterEyes;
 	}
 	
-	public int get MonsterNoses()
+	public int getMonsterNoses()
 	{
-		return int MonsterNoses;
+		return monsterNoses;
 	}
 	
 	
@@ -49,6 +49,12 @@ public class MarshmellowMonster
 	{
 		this.monsterName=monsterName;
 	}
+	
+	public void setMonsterEyes (int monsterEyes)
+	{
+		this.monsterEyes=monsterEyes;
+	}
+	public void setMonster
 	
 	public String toString()
 	{

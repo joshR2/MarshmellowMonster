@@ -1,6 +1,6 @@
 package marshmellows.controller;
 
-
+import javax.swing.JOptionPane;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class MonsterController
 	private MarshmellowMonster joshMonster;
 	private MarshmellowOutput myOutput;
 	private Scanner monsterScanner;
-	private MarshmellowMosnter userMonster;
+	private MarshmellowMonster userMonster;
 	
 	public MonsterController()
 	{
@@ -23,6 +23,7 @@ public class MonsterController
 		boolean hasBellyButton = false;
 		String name = "yuck old candy";
 		
+		JOptionPane.showMessageDialog(null," to sexy for this shirt")
 		monsterScanner = new Scanner(System.in);
 		myOutput=new MarshmellowOutput();
 		joshMonster= new MarshmellowMonster(name,eyes,noses,legs,hair,hasBellyButton);
@@ -45,8 +46,7 @@ public class MonsterController
 		joshMonster.setMonsterName(betterMonsterName);
 		System.out.println("Type in a diffrent number of eyes fo r the mosnter");
 		int betterMonsterEyes = monsterScanner.nextInt();
-		joshMonster.setMonstername
-		betterEyes(betterMonsterEyes);
+		joshMonster.setMonsterEyes(betterMonsterEyes);
 		System.out.println("Type in a better name for the monster");
 		double betterMonsterLegs= monsterScanner.nextDouble();
 	}
